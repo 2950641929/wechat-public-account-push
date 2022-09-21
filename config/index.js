@@ -41,7 +41,7 @@ export const config = {
     poetry: false,
 
     /** 星座运势 */
-    horoscope: false,
+    horoscope: true,
 
     /** 生日消息和节日消息 */
     birthdayMessage: true,
@@ -87,7 +87,7 @@ export const config = {
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        {"keyword": "love_day", date: "2022-09-08"},
+        {"keyword": "love_day", date: "2022-07-04"},
         // 结婚纪念日
         {"keyword": "marry_day", date: "2022-09-09"},
         // 退伍日
@@ -96,14 +96,15 @@ export const config = {
     },
     {
       name: "老婆1",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
+      id: "oVd-g6mxCZmw93keTNQc3z_4zPeA",
+      useTemplateId: "kAB-Lf4WlR7QbfRblWJl2UE79n5XeA5LlJSNt6kv6Oo",
+      province: "湖南",
+      city: "长沙",
+      horoscopeDate: '09-08',
+      horoscopeDateType: '今日',
+      openUrl: "",
+      festivals: [ {"type": "生日", "name": "刘慧娟", "year": "2003", "date": "09-08"},
+        {"type": "节日", "name": "被搭讪纪念日", "year": "2022", "date": "07-04"},],
       customizedDateList: []
     },
     {
